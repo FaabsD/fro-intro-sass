@@ -1,15 +1,6 @@
 @import 'vars';
 @import'reset-margin';
-body{
-    font-family: $balsamiq-sans;
-}
-.logo {
-    background-color: $steunkleur;
-    display: inline-block;
-    font-size: 2em;
-    padding: .3em;
-    color: darken($color: $steunkleur, $amount: 25);
-}
+
 @import 'buttons';
 @import 'heading';
 @import 'layout';
