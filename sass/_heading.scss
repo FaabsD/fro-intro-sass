@@ -1,0 +1,15 @@
+header {
+    padding: 1em 0;
+    text-align: center;
+    background-color: $donkere-hoofdkleur;
+
+    h1 {
+        font-weight: 500;
+    }
+
+    p {
+        padding: .5em;
+    }
+
+    border-bottom: 3.5px solid darken($color: $donkere-hoofdkleur, $amount: 10)
+}
