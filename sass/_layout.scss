@@ -1,3 +1,14 @@
+body {
+    font-family: $balsamiq-sans;
+}
+
+.logo {
+    background-color: $steunkleur;
+    display: inline-block;
+    font-size: 2em;
+    padding: .3em;
+    color: darken($color: $steunkleur, $amount: 25);
+}
 main {
     background-color: $hoofdkleur;
     padding: 0 1.5em;
