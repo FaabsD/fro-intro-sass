@@ -60,4 +60,13 @@ main section h2 {
   text-align: center;
 }
 
+footer {
+  padding: 1em 0;
+  text-align: center;
+  background-color: #efbe7c;
+}
+footer p {
+  padding: 2em;
+}
+
 /*# sourceMappingURL=style.css.map */
