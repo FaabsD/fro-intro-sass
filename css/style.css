@@ -4,18 +4,6 @@
   padding: 0;
 }
 
-body {
-  font-family: "Balsamiq Sans", cursive;
-}
-
-.logo {
-  background-color: #9c6437;
-  display: inline-block;
-  font-size: 2em;
-  padding: 0.3em;
-  color: #3e2816;
-}
-
 .knop {
   background-color: #9c6437;
   color: #2b1b0f;
@@ -45,6 +33,18 @@ header h1 {
 }
 header p {
   padding: 0.5em;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.logo {
+  background-color: #9c6437;
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.3em;
+  color: #3e2816;
 }
 
 main {
