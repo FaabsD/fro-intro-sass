@@ -30,6 +30,8 @@ body {
 }
 .knop-houder {
   text-align: center;
+  padding: 1em 0 0.5em;
+  border-bottom: 1px solid #895830;
 }
 
 header {
@@ -47,6 +49,15 @@ header p {
 
 main {
   background-color: antiquewhite;
+  padding: 0 1.5em;
+}
+main section {
+  color: #422f1d;
+}
+main section h2 {
+  font-size: 2em;
+  padding: 0.5em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
