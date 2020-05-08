@@ -11,18 +11,5 @@ body{
     color: darken($color: $steunkleur, $amount: 25);
 }
 @import 'buttons';
-header{
-    padding: 1em 0;
-    text-align: center;
-    background-color: $donkere-hoofdkleur;
-    h1{
-        font-weight: 500;
-    }
-    p{
-        padding: .5em;
-    }
-    border-bottom: 3.5px solid darken($color: $donkere-hoofdkleur, $amount: 10)
-}
-main{
-    background-color: $hoofdkleur;
-}
+@import 'heading';
+@import 'layout';
