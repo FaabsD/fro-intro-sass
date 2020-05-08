@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/_reset-margin.scss"],"names":[],"mappings":"AAAA;EACI;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/_vars.scss","../sass/_reset-margin.scss","../sass/main.scss"],"names":[],"mappings":"AACQ;ACDR;EACI;EACA;;;ACAJ;EACI,aFDY","file":"style.css"}
