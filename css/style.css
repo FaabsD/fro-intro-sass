@@ -8,4 +8,12 @@ body {
   font-family: "Balsamiq Sans", cursive;
 }
 
+header {
+  background-color: #efbe7c;
+}
+
+main {
+  background-color: antiquewhite;
+}
+
 /*# sourceMappingURL=style.css.map */
