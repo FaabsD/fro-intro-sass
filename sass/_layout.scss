@@ -1,0 +1,14 @@
+main {
+    background-color: $hoofdkleur;
+    padding: 0 1.5em;
+
+    section {
+        color: $tekstkleur-donker;
+
+        h2 {
+            font-size: 2em;
+            padding: .5em;
+            text-align: center;
+        }
+    }
+}
