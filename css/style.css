@@ -8,8 +8,41 @@ body {
   font-family: "Balsamiq Sans", cursive;
 }
 
+.logo {
+  background-color: #9c6437;
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.3em;
+  color: #3e2816;
+}
+
+.knop {
+  background-color: #9c6437;
+  color: #2b1b0f;
+  font-size: 1em;
+  padding: 0.5em 2em;
+  border: dotted 2px black;
+}
+.knop:hover {
+  background-color: #764c2a;
+  color: #fff;
+  border-color: white;
+}
+.knop-houder {
+  text-align: center;
+}
+
 header {
+  padding: 1em 0;
+  text-align: center;
   background-color: #efbe7c;
+  border-bottom: 3.5px solid #e9a74f;
+}
+header h1 {
+  font-weight: 500;
+}
+header p {
+  padding: 0.5em;
 }
 
 main {
