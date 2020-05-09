@@ -1,6 +1,7 @@
 /* Navigatie */
 nav
     background-color: rgba(245, 178, 55, 0.774)
+    height: 100vh
     position: absolute
     a
         text-decoration: none
@@ -14,5 +15,22 @@ nav
 /* Container Verkassen */
 #haal-menu:checked ~ .container
     left: 10em
+#haal-menu:checked ~ .menu-halen .fa-times
+    display: inline-block
+#haal-menu:checked ~ .menu-halen .fa-bars
+    display: none
+.fa-bars
+    display: inline-block
+// times verbergen
+.fa-times
+    display: none
 
+//checkbox verbergen
+#haal-menu
+    display: none  
+.menu-halen
+    float: right
+    font-size: 1.5em
+    padding: .6em 1em
+    cursor: pointer
 
