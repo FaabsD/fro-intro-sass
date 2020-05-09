@@ -1,7 +1,6 @@
 /* Navigatie */
 nav
     background-color: $donkere-hoofdkleur
-    height: 100vh
     position: absolute
     a
         text-decoration: none
@@ -33,4 +32,9 @@ nav
     font-size: 1.5em
     padding: .6em 1em
     cursor: pointer
+
+// mediaquery
+@media screen and (min-width: 1100px)
+    @import 'nav-desktop'
+
 
