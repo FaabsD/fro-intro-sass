@@ -9,6 +9,11 @@ body {
     padding: .3em;
     color: darken($color: $steunkleur, $amount: 25);
 }
+.container{
+    position: relative;
+    left: 0;
+    transition: left .6s ease-in-out;
+}
 main {
     background-color: $hoofdkleur;
     padding: 0 1.5em;
