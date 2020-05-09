@@ -25,6 +25,7 @@
 /* Navigatie */
 nav {
   background-color: rgba(245, 178, 55, 0.774);
+  height: 100vh;
   position: absolute;
 }
 nav a {
@@ -41,6 +42,33 @@ nav a.actief {
 /* Container Verkassen */
 #haal-menu:checked ~ .container {
   left: 10em;
+}
+
+#haal-menu:checked ~ .menu-halen .fa-times {
+  display: inline-block;
+}
+
+#haal-menu:checked ~ .menu-halen .fa-bars {
+  display: none;
+}
+
+.fa-bars {
+  display: inline-block;
+}
+
+.fa-times {
+  display: none;
+}
+
+#haal-menu {
+  display: none;
+}
+
+.menu-halen {
+  float: right;
+  font-size: 1.5em;
+  padding: 0.6em 1em;
+  cursor: pointer;
 }
 
 header {
