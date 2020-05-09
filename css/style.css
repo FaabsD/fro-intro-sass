@@ -22,6 +22,27 @@
   border-bottom: 1px solid #895830;
 }
 
+/* Navigatie */
+nav {
+  background-color: rgba(245, 178, 55, 0.774);
+  position: absolute;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 5em 0.5em 2em;
+  border-bottom: 1px dotted #422f1d;
+  color: #422f1d;
+}
+nav a.actief {
+  border-bottom: 2px solid #422f1d;
+}
+
+/* Container Verkassen */
+#haal-menu:checked ~ .container {
+  left: 10em;
+}
+
 header {
   padding: 1em 0;
   text-align: center;
@@ -47,6 +68,12 @@ body {
   color: #3e2816;
 }
 
+.container {
+  position: relative;
+  left: 0;
+  transition: left 0.6s ease-in-out;
+}
+
 main {
   background-color: antiquewhite;
   padding: 0 1.5em;
@@ -66,7 +93,11 @@ footer {
   background-color: #efbe7c;
 }
 footer p {
-  padding: 2em;
+  padding: 2em 2em 0;
+}
+footer #validatie {
+  padding: 0 2em 2em;
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */
