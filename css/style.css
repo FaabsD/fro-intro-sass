@@ -91,6 +91,9 @@ nav a.actief {
     padding: 0.5em 2em 0.5em 2em;
     border-bottom: 0;
   }
+  nav a:hover {
+    border-bottom: 3px dashed #9c6437;
+  }
 
   .container {
     clear: both;
