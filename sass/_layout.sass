@@ -1,0 +1,33 @@
+body 
+    font-family: $balsamiq-sans
+
+
+.logo 
+    background-color: $steunkleur
+    display: inline-block
+    font-size: 2em
+    padding: .3em
+    color: darken($color: $steunkleur, $amount: 25)
+
+.container
+    position: relative
+    left: 0
+    @include transition (left .6s ease-in-out)
+    // transition: left .6s ease-in-out;
+
+main 
+    background-color: $hoofdkleur
+    padding: 0 1.5em
+
+    section 
+        color: $tekstkleur-donker
+
+        h2 
+            font-size: 2em
+            padding: .5em
+            text-align: center
+@media screen and ( min-width: $desktop-width)
+    @import main-desktop
+    
+        
+    
