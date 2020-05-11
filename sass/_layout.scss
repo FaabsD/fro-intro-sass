@@ -12,7 +12,8 @@ body {
 .container{
     position: relative;
     left: 0;
-    transition: left .6s ease-in-out;
+    @include transition (left .6s ease-in-out);
+    // transition: left .6s ease-in-out;
 }
 main {
     background-color: $hoofdkleur;
